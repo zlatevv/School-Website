@@ -24,6 +24,10 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.auth button:hover {
+  color: black;
+  transition: 0.2s;
+}
 
 .top-bar .logo {
   position: absolute;
@@ -38,6 +42,10 @@ body {
 
 .auth .signup {
   background: #00bfff;
+}
+.auth .signup:hover {
+  color: black;
+  transition: 0.2s;
 }
 
 .search-bar {
@@ -59,6 +67,14 @@ body {
 
 .dropdown {
   position: relative;
+}
+
+.main-nav a {
+  color: black;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: dimgray;
 }
 
 .dropbtn {
@@ -99,4 +115,9 @@ footer .links a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
+}
+
+footer .links a:hover {
+  color:dimgray;
+  transition: 0.2s;
 }
