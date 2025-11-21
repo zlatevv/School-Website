@@ -28,6 +28,15 @@ body > *:not(footer) {
   color: white;             /* ensure contrast on dark background */
   text-transform: uppercase; /* optional — gives a strong logo look */
 }
+.brand a {
+  text-decoration: none;
+  color: white;
+}
+
+.brand a:hover {
+  color: gray;
+  transition: 0.2s;
+}
 
 .auth button {
   margin-left: 10px;
